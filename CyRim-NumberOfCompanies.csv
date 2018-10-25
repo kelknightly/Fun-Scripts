@@ -1,0 +1,353 @@
+VulnerabilityScore,Sector,Region,Size,Companies
+1,Defense / Military Contractor,US,Small,298
+1,Mining & Primary Industries,US,Small,1822
+1,Pharmaceuticals,US,Small,4412
+2,Energy,US,Small,14972
+2,Food & Agriculture,US,Small,18016
+2,Telecommunications,US,Small,2432
+2,Utilities,US,Small,7166
+4,IT - Hardware,US,Small,404
+4,Manufacturing,US,Small,98102
+4,Real Estate / Property / Construction,US,Small,116438
+3,Tourism & Hospitality,US,Small,125503.2
+4,Transportation / Aviation / Aerospace,US,Small,33564
+3,Business & Professional Services,US,Small,145690
+5,Education,US,Small,32092
+4,Entertainment & Media,US,Small,36924
+4,Finance - Insurance,US,Small,9746
+4,Finance - Investment management,US,Small,12708
+4,Healthcare,US,Small,148084
+4,IT - Software,US,Small,2510
+5,Retail,US,Small,193166
+5,Finance - Banking,US,Small,7935.2
+4,IT - Services,US,Small,850
+1,Defense / Military Contractor,US,Medium,64
+1,Mining & Primary Industries,US,Medium,566
+1,Pharmaceuticals,US,Medium,812
+2,Energy,US,Medium,5282
+2,Food & Agriculture,US,Medium,4552
+2,Telecommunications,US,Medium,530
+2,Utilities,US,Medium,1264
+4,IT - Hardware,US,Medium,146
+4,Manufacturing,US,Medium,21132
+4,Real Estate / Property / Construction,US,Medium,13420
+3,Tourism & Hospitality,US,Medium,9060
+4,Transportation / Aviation / Aerospace,US,Medium,7048
+3,Business & Professional Services,US,Medium,37816
+5,Education,US,Medium,5756
+4,Entertainment & Media,US,Medium,6068
+4,Finance - Insurance,US,Medium,2342
+4,Finance - Investment management,US,Medium,2904
+4,Healthcare,US,Medium,37570
+4,IT - Software,US,Medium,640
+5,Retail,US,Medium,30348
+5,Finance - Banking,US,Medium,7394.8
+4,IT - Services,US,Medium,326
+1,Defense / Military Contractor,US,Large,50
+1,Mining & Primary Industries,US,Large,162
+1,Pharmaceuticals,US,Large,54
+2,Energy,US,Large,1170
+2,Food & Agriculture,US,Large,1432
+2,Telecommunications,US,Large,86
+2,Utilities,US,Large,188
+4,IT - Hardware,US,Large,186
+4,Manufacturing,US,Large,4238
+4,Real Estate / Property / Construction,US,Large,1626
+3,Tourism & Hospitality,US,Large,817.2
+4,Transportation / Aviation / Aerospace,US,Large,1792
+3,Business & Professional Services,US,Large,8946
+5,Education,US,Large,774
+4,Entertainment & Media,US,Large,814
+4,Finance - Insurance,US,Large,1236
+4,Finance - Investment management,US,Large,566
+4,Healthcare,US,Large,5754
+4,IT - Software,US,Large,684
+5,Retail,US,Large,4400
+5,Finance - Banking,US,Large,2091.6
+4,IT - Services,US,Large,68
+1,Defense / Military Contractor,US,Premier,10
+1,Mining & Primary Industries,US,Premier,8
+1,Pharmaceuticals,US,Premier,116
+2,Energy,US,Premier,88
+2,Food & Agriculture,US,Premier,64
+2,Telecommunications,US,Premier,26
+2,Utilities,US,Premier,178
+4,IT - Hardware,US,Premier,24
+4,Manufacturing,US,Premier,570
+4,Real Estate / Property / Construction,US,Premier,56
+3,Tourism & Hospitality,US,Premier,54
+4,Transportation / Aviation / Aerospace,US,Premier,86
+3,Business & Professional Services,US,Premier,98
+5,Education,US,Premier,32
+4,Entertainment & Media,US,Premier,74
+4,Finance - Insurance,US,Premier,188
+4,Finance - Investment management,US,Premier,112
+4,Healthcare,US,Premier,94
+4,IT - Software,US,Premier,22
+5,Retail,US,Premier,354
+5,Finance - Banking,US,Premier,145.6
+4,IT - Services,US,Premier,46
+1,Defense / Military Contractor,EU & Russia,Small,365.6060632
+1,Mining & Primary Industries,EU & Russia,Small,2484.953223
+1,Pharmaceuticals,EU & Russia,Small,8837.570801
+2,Energy,EU & Russia,Small,33831.78492
+2,Food & Agriculture,EU & Russia,Small,55947.3725
+2,Telecommunications,EU & Russia,Small,4122.645864
+2,Utilities,EU & Russia,Small,21557.29703
+4,IT - Hardware,EU & Russia,Small,943.0884261
+4,Manufacturing,EU & Russia,Small,256306.7551
+4,Real Estate / Property / Construction,EU & Russia,Small,142961.3302
+3,Tourism & Hospitality,EU & Russia,Small,249471.2376
+4,Transportation / Aviation / Aerospace,EU & Russia,Small,97839.00774
+3,Business & Professional Services,EU & Russia,Small,395615.9048
+5,Education,EU & Russia,Small,48843.24926
+4,Entertainment & Media,EU & Russia,Small,91892.99806
+4,Finance - Insurance,EU & Russia,Small,8249.330446
+4,Finance - Investment management,EU & Russia,Small,18654.09392
+4,Healthcare,EU & Russia,Small,251959.1405
+4,IT - Software,EU & Russia,Small,5859.287003
+5,Retail,EU & Russia,Small,435294.9815
+5,Finance - Banking,EU & Russia,Small,11648.09302
+4,IT - Services,EU & Russia,Small,1984.220698
+1,Defense / Military Contractor,EU & Russia,Medium,78.51942297
+1,Mining & Primary Industries,EU & Russia,Medium,771.944854
+1,Pharmaceuticals,EU & Russia,Medium,1626.497618
+2,Energy,EU & Russia,Medium,11935.57894
+2,Food & Agriculture,EU & Russia,Medium,14135.90362
+2,Telecommunications,EU & Russia,Medium,898.438449
+2,Utilities,EU & Russia,Medium,3802.459315
+4,IT - Hardware,EU & Russia,Medium,340.8190847
+4,Manufacturing,EU & Russia,Medium,55210.64146
+4,Real Estate / Property / Construction,EU & Russia,Medium,16476.93237
+3,Tourism & Hospitality,EU & Russia,Medium,18009.17756
+4,Transportation / Aviation / Aerospace,EU & Russia,Medium,20544.90903
+3,Business & Professional Services,EU & Russia,Medium,102687.9748
+5,Education,EU & Russia,Medium,8760.493043
+4,Entertainment & Media,EU & Russia,Medium,15101.47092
+4,Finance - Insurance,EU & Russia,Medium,1982.344747
+4,Finance - Investment management,EU & Russia,Medium,4262.786334
+4,Healthcare,EU & Russia,Medium,63923.88718
+4,IT - Software,EU & Russia,Medium,1494.001467
+5,Retail,EU & Russia,Medium,68388.49538
+5,Finance - Banking,EU & Russia,Medium,10854.83897
+4,IT - Services,EU & Russia,Medium,761.0069973
+1,Defense / Military Contractor,EU & Russia,Large,61.34329919
+1,Mining & Primary Industries,EU & Russia,Large,220.9453469
+1,Pharmaceuticals,EU & Russia,Large,108.1660978
+2,Energy,EU & Russia,Large,2643.814344
+2,Food & Agriculture,EU & Russia,Large,4446.971438
+2,Telecommunications,EU & Russia,Large,145.7843521
+2,Utilities,EU & Russia,Large,565.5556575
+4,IT - Hardware,EU & Russia,Large,434.1941764
+4,Manufacturing,EU & Russia,Large,11072.4351
+4,Real Estate / Property / Construction,EU & Russia,Large,1996.385398
+3,Tourism & Hospitality,EU & Russia,Large,1624.403962
+4,Transportation / Aviation / Aerospace,EU & Russia,Large,5223.67721
+3,Business & Professional Services,EU & Russia,Large,24292.53816
+5,Education,EU & Russia,Large,1178.009315
+4,Entertainment & Media,EU & Russia,Large,2025.807075
+4,Finance - Insurance,EU & Russia,Large,1046.190481
+4,Finance - Investment management,EU & Russia,Large,830.8323226
+4,Healthcare,EU & Russia,Large,9790.206197
+4,IT - Software,EU & Russia,Large,1596.714068
+5,Retail,EU & Russia,Large,9915.295232
+5,Finance - Banking,EU & Russia,Large,3070.26305
+4,IT - Services,EU & Russia,Large,158.7376559
+1,Defense / Military Contractor,EU & Russia,Premier,63.51272895
+1,Mining & Primary Industries,EU & Russia,Premier,8.470419851
+1,Pharmaceuticals,EU & Russia,Premier,7.175431171
+2,Energy,EU & Russia,Premier,19.34387012
+2,Food & Agriculture,EU & Russia,Premier,15.98475386
+2,Telecommunications,EU & Russia,Premier,14.35344478
+2,Utilities,EU & Russia,Premier,9.31183252
+4,IT - Hardware,EU & Russia,Premier,21.0237869
+4,Manufacturing,EU & Russia,Premier,149.5745589
+4,Real Estate / Property / Construction,EU & Russia,Premier,110.3889613
+3,Tourism & Hospitality,EU & Russia,Premier,27.01567993
+4,Transportation / Aviation / Aerospace,EU & Russia,Premier,47.48749143
+3,Business & Professional Services,EU & Russia,Premier,107.3927923
+5,Education,EU & Russia,Premier,51.31558115
+4,Entertainment & Media,EU & Russia,Premier,12.86263086
+4,Finance - Insurance,EU & Russia,Premier,10.11996826
+4,Finance - Investment management,EU & Russia,Premier,34.34763265
+4,Healthcare,EU & Russia,Premier,71.39517026
+4,IT - Software,EU & Russia,Premier,21.0237869
+5,Retail,EU & Russia,Premier,49.7028078
+5,Finance - Banking,EU & Russia,Premier,34.34763265
+4,IT - Services,EU & Russia,Premier,21.0237869
+1,Defense / Military Contractor,Asia,Small,137.1837321
+1,Mining & Primary Industries,Asia,Small,6535.689153
+1,Pharmaceuticals,Asia,Small,3692.453486
+2,Energy,Asia,Small,10188.06205
+2,Food & Agriculture,Asia,Small,59826.42183
+2,Telecommunications,Asia,Small,1503.171086
+2,Utilities,Asia,Small,17078.77537
+4,IT - Hardware,Asia,Small,1049.483449
+4,Manufacturing,Asia,Small,42613.86185
+4,Real Estate / Property / Construction,Asia,Small,17148.50395
+3,Tourism & Hospitality,Asia,Small,11248.24479
+4,Transportation / Aviation / Aerospace,Asia,Small,65362.38116
+3,Business & Professional Services,Asia,Small,22874.56789
+5,Education,Asia,Small,15987.75527
+4,Entertainment & Media,Asia,Small,3692.4
+4,Finance - Insurance,Asia,Small,1530.204809
+4,Finance - Investment management,Asia,Small,1995.263977
+4,Healthcare,Asia,Small,133075.7126
+4,IT - Software,Asia,Small,3956.55082
+5,Retail,Asia,Small,32668.70068
+5,Finance - Banking,Asia,Small,1245.893823
+4,IT - Services,Asia,Small,1733.1605
+1,Defense / Military Contractor,Asia,Medium,29.46227802
+1,Mining & Primary Industries,Asia,Medium,2030.296411
+1,Pharmaceuticals,Asia,Medium,679.5721285
+2,Energy,Asia,Medium,3594.265546
+2,Food & Agriculture,Asia,Medium,15116.0009
+2,Telecommunications,Asia,Medium,327.5825147
+2,Utilities,Asia,Medium,3012.499591
+4,IT - Hardware,Asia,Medium,379.2687712
+4,Manufacturing,Asia,Medium,9179.386033
+4,Real Estate / Property / Construction,Asia,Medium,1976.441738
+3,Tourism & Hospitality,Asia,Medium,812.0039791
+4,Transportation / Aviation / Aerospace,Asia,Medium,13725.24319
+3,Business & Professional Services,Asia,Medium,5937.433313
+5,Education,Asia,Medium,2867.553263
+4,Entertainment & Media,Asia,Medium,606.8
+4,Finance - Insurance,Asia,Medium,367.7138994
+4,Finance - Investment management,Asia,Medium,455.9526745
+4,Healthcare,Asia,Medium,33762.2871
+4,IT - Software,Asia,Medium,1008.841643
+5,Retail,Asia,Medium,5132.527092
+5,Finance - Banking,Asia,Medium,1161.046432
+4,IT - Services,Asia,Medium,664.7180269
+1,Defense / Military Contractor,Asia,Large,23.01740471
+1,Mining & Primary Industries,Asia,Large,581.1095734
+1,Pharmaceuticals,Asia,Large,45.19322037
+2,Energy,Asia,Large,796.1549961
+2,Food & Agriculture,Asia,Large,4755.297294
+2,Telecommunications,Asia,Large,53.15489861
+2,Utilities,Asia,Large,448.0616481
+4,IT - Hardware,Asia,Large,483.1780236
+4,Manufacturing,Asia,Large,1840.916052
+4,Real Estate / Property / Construction,Asia,Large,239.4705116
+3,Tourism & Hospitality,Asia,Large,73.24168341
+4,Transportation / Aviation / Aerospace,Asia,Large,3489.732661
+3,Business & Professional Services,Asia,Large,1404.598012
+5,Education,Asia,Large,385.5952442
+4,Entertainment & Media,Asia,Large,81.4
+4,Finance - Insurance,Asia,Large,194.062502
+4,Finance - Investment management,Asia,Large,88.86680915
+4,Healthcare,Asia,Large,5170.83311
+4,IT - Software,Asia,Large,1078.199506
+5,Retail,Asia,Large,744.1386321
+5,Finance - Banking,Asia,Large,328.3989718
+4,IT - Services,Asia,Large,138.65284
+1,Defense / Military Contractor,Asia,Premier,56.58106011
+1,Mining & Primary Industries,Asia,Premier,118.1831698
+1,Pharmaceuticals,Asia,Premier,1.224379331
+2,Energy,Asia,Premier,13.29490352
+2,Food & Agriculture,Asia,Premier,138.2793231
+2,Telecommunications,Asia,Premier,0.946281822
+2,Utilities,Asia,Premier,19.94235528
+4,IT - Hardware,Asia,Premier,6.145464794
+4,Manufacturing,Asia,Premier,71.19158721
+4,Real Estate / Property / Construction,Asia,Premier,30.93146884
+3,Tourism & Hospitality,Asia,Premier,9.693971822
+4,Transportation / Aviation / Aerospace,Asia,Premier,135.0406828
+3,Business & Professional Services,Asia,Premier,14.23255298
+5,Education,Asia,Premier,37.15559641
+4,Entertainment & Media,Asia,Premier,0.122437933
+4,Finance - Insurance,Asia,Premier,5.524467873
+4,Finance - Investment management,Asia,Premier,9.204261148
+4,Healthcare,Asia,Premier,86.69639163
+4,IT - Software,Asia,Premier,3.729095737
+5,Retail,Asia,Premier,33.92890138
+5,Finance - Banking,Asia,Premier,9.204261148
+4,IT - Services,Asia,Premier,4.823700812
+1,Defense / Military Contractor,RoW,Small,71.52
+1,Mining & Primary Industries,RoW,Small,4445.68
+1,Pharmaceuticals,RoW,Small,1323.6
+2,Energy,RoW,Small,5988.8
+2,Food & Agriculture,RoW,Small,53327.36
+2,Telecommunications,RoW,Small,729.6
+2,Utilities,RoW,Small,9889.08
+4,IT - Hardware,RoW,Small,80.8
+4,Manufacturing,RoW,Small,70633.44
+4,Real Estate / Property / Construction,RoW,Small,34931.4
+3,Tourism & Hospitality,RoW,Small,30120.768
+4,Transportation / Aviation / Aerospace,RoW,Small,28193.76
+3,Business & Professional Services,RoW,Small,78672.6
+5,Education,RoW,Small,4492.88
+4,Entertainment & Media,RoW,Small,3692.4
+4,Finance - Insurance,RoW,Small,5262.84
+4,Finance - Investment management,RoW,Small,6862.32
+4,Healthcare,RoW,Small,38501.84
+4,IT - Software,RoW,Small,502
+5,Retail,RoW,Small,154532.8
+5,Finance - Banking,RoW,Small,4285.008
+4,IT - Services,RoW,Small,170
+1,Defense / Military Contractor,RoW,Medium,15.36
+1,Mining & Primary Industries,RoW,Medium,1381.04
+1,Pharmaceuticals,RoW,Medium,243.6
+2,Energy,RoW,Medium,2112.8
+2,Food & Agriculture,RoW,Medium,13473.92
+2,Telecommunications,RoW,Medium,159
+2,Utilities,RoW,Medium,1744.32
+4,IT - Hardware,RoW,Medium,29.2
+4,Manufacturing,RoW,Medium,15215.04
+4,Real Estate / Property / Construction,RoW,Medium,4026
+3,Tourism & Hospitality,RoW,Medium,2174.4
+4,Transportation / Aviation / Aerospace,RoW,Medium,5920.32
+3,Business & Professional Services,RoW,Medium,20420.64
+5,Education,RoW,Medium,805.84
+4,Entertainment & Media,RoW,Medium,606.8
+4,Finance - Insurance,RoW,Medium,1264.68
+4,Finance - Investment management,RoW,Medium,1568.16
+4,Healthcare,RoW,Medium,9768.2
+4,IT - Software,RoW,Medium,128
+5,Retail,RoW,Medium,24278.4
+5,Finance - Banking,RoW,Medium,3993.192
+4,IT - Services,RoW,Medium,65.2
+1,Defense / Military Contractor,RoW,Large,12
+1,Mining & Primary Industries,RoW,Large,395.28
+1,Pharmaceuticals,RoW,Large,16.2
+2,Energy,RoW,Large,468
+2,Food & Agriculture,RoW,Large,4238.72
+2,Telecommunications,RoW,Large,25.8
+2,Utilities,RoW,Large,259.44
+4,IT - Hardware,RoW,Large,37.2
+4,Manufacturing,RoW,Large,3051.36
+4,Real Estate / Property / Construction,RoW,Large,487.8
+3,Tourism & Hospitality,RoW,Large,196.128
+4,Transportation / Aviation / Aerospace,RoW,Large,1505.28
+3,Business & Professional Services,RoW,Large,4830.84
+5,Education,RoW,Large,108.36
+4,Entertainment & Media,RoW,Large,81.4
+4,Finance - Insurance,RoW,Large,667.44
+4,Finance - Investment management,RoW,Large,305.64
+4,Healthcare,RoW,Large,1496.04
+4,IT - Software,RoW,Large,136.8
+5,Retail,RoW,Large,3520
+5,Finance - Banking,RoW,Large,1129.464
+4,IT - Services,RoW,Large,13.6
+1,Defense / Military Contractor,RoW,Premier,14.47329354
+1,Mining & Primary Industries,RoW,Premier,38.49759472
+1,Pharmaceuticals,RoW,Premier,1.263965611
+2,Energy,RoW,Premier,3.680856202
+2,Food & Agriculture,RoW,Premier,23.04161339
+2,Telecommunications,RoW,Premier,3.086393091
+2,Utilities,RoW,Premier,5.521284304
+4,IT - Hardware,RoW,Premier,0.181679858
+4,Manufacturing,RoW,Premier,57.42222978
+4,Real Estate / Property / Construction,RoW,Premier,29.56285653
+3,Tourism & Hospitality,RoW,Premier,6.764812879
+4,Transportation / Aviation / Aerospace,RoW,Premier,16.96200181
+3,Business & Professional Services,RoW,Premier,23.8221107
+5,Education,RoW,Premier,5.197955716
+4,Entertainment & Media,RoW,Premier,1.763045568
+4,Finance - Insurance,RoW,Premier,9.24672372
+4,Finance - Investment management,RoW,Premier,15.40587471
+4,Healthcare,RoW,Premier,12.12856334
+4,IT - Software,RoW,Premier,0.181679858
+5,Retail,RoW,Premier,23.67684507
+5,Finance - Banking,RoW,Premier,15.40587471
+4,IT - Services,RoW,Premier,0.181679858
