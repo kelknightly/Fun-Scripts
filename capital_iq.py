@@ -15,14 +15,12 @@ frames = [df1, df2, df3]
 df = pd.concat(frames, sort=True)
 
 #print(df['Industry_Classifications'].unique())
-print(df.head())
 #df.rename(columns=lambda x: x.strip())
 
 df = df.replace(['-', ' - ', ' -   '], 0)
 df['Total_Revenue_LTM_USDmm'] = df['Total_Revenue_LTM_USDmm'].str.replace(',', '')
 df['Number_of_Employees_Global'] = df['Number_of_Employees_Global'].str.replace(',', '')
 df['Total_Revenue_LTM_USDmm'] = df['Total_Revenue_LTM_USDmm'].astype(float)
-#df['Number_of_Employees_Global'] = df['Number_of_Employees_Global'].astype(int)
 df['Number_of_Employees_Global'] = pd.to_numeric(df['Number_of_Employees_Global'], errors='coerce')
 
 sector = df.loc[
@@ -32,7 +30,7 @@ sector = df.loc[
     (df['Number_of_Employees_Global'] <= 500) &
     (df['Total_Revenue_LTM_USDmm'] > 0)]
 
-print(sector)
+print(sector.head(10))
 
 
 
