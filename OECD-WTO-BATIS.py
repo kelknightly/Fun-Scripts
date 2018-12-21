@@ -4,6 +4,7 @@ pd.set_option('display.width', 200)
 
 df = pd.read_csv('OECD-WTO_BATIS_data.csv', low_memory=False)
 economies = pd.read_csv('wto_economies.csv', encoding='latin-1')
+GDP = pd.read_csv('GDP.csv', encoding='latin-1')
 
 recent = df.loc[(df['Year'] == 2012) & (df['Item_code'] == 'S205'),
                 ['Reporter', 'Partner', 'Year', 'Flow', 'Balanced_value', 'Item_code']]
@@ -12,16 +13,18 @@ recent_economies = pd.merge(recent, economies, how='inner', left_on='Partner', r
 recent_economies = pd.merge(recent_economies, economies, how='inner', left_on='Reporter', right_on='COUNTRY_CODE')
 recent_economies = recent_economies.rename(index=str, columns={'Reporter': 'reporter', 'Partner': 'partner',
                                                                'Year': 'year', 'Flow': 'flow',
-                                                               'Balanced_value': 'balanced_value', 'Item_code': 'item_code',
-                                                               'id_x': 'partner_id', 'COUNTRY_CODE_x': 'partner_code',
+                                                               'Balanced_value': 'balanced_value',
+                                                               'Item_code': 'item_code', 'id_x': 'partner_id',
+                                                               'COUNTRY_CODE_x': 'partner_code',
                                                                'COUNTRY_DESCRIPTION_x': 'partner_country_name',
                                                                'id_y': 'reporter_id', 'COUNTRY_CODE_y': 'reporter_code',
-                                                               'COUNTRY_DESCRIPTION_y': 'reporter_country_name'
+                                                               'COUNTRY_DESCRIPTION_y': 'reporter_country_name',
                                                                }
                                            )
 
 recent_economies_neat = recent_economies[['reporter_id', 'reporter_country_name', 'partner_id', 'partner_country_name',
                                           'flow', 'balanced_value']]
+
 recent_economies_neat = recent_economies_neat.dropna()
 recent_economies_neat.reporter_id = recent_economies_neat.reporter_id.astype(int)
 recent_economies_neat.partner_id = recent_economies_neat.partner_id.astype(int)
@@ -58,9 +61,13 @@ node_df = recent_economies_neat[['reporter_id', 'reporter_country_name']]
 node_df = node_df.rename(index=str, columns={'reporter_id': 'id', 'reporter_country_name': 'country_name'})
 node_df = node_df.drop_duplicates(keep='first')
 
+nodes_gdp = pd.merge(node_df, GDP, how='inner', on='country_name')
+nodes_gdp = nodes_gdp[['id_x', 'country_name', 'GDP_IMF_2018']]
+nodes_gdp = nodes_gdp.rename(index=str, columns={'id_x': 'id', 'GDP_IMF_2018': 'GDP'})
+
 edge_imports3.to_csv('all_edge_imports.csv', index=False)
 edge_exports3.to_csv('all_edge_exports.csv', index=False)
-node_df.to_csv('all_nodes.csv', index=False)
+nodes_gdp.to_csv('all_nodes.csv', index=False)
 
 asia = ('Australia', 'Bangladesh', 'China', 'Hong Kong, China', 'Indonesia', 'India', 'Japan', 'Korea, Republic of',
         'Malaysia', 'New Zealand', 'Papua New Guinea', 'Philippines', 'Singapore', 'Thailand',
@@ -74,7 +81,7 @@ edge_exports_asia = edge_exports2.loc[(edge_exports2['target_name'].isin(asia)) 
                                       (edge_exports2['source_name'].isin(asia))]
 edge_exports_asia2 = edge_exports_asia[['target', 'source', 'weight']]
 
-node_df_asia = node_df.loc[node_df['country_name'].isin(asia)]
+node_df_asia = nodes_gdp.loc[nodes_gdp['country_name'].isin(asia)]
 
 edge_imports_asia2.to_csv('asia_edge_imports.csv', index=False)
 edge_exports_asia2.to_csv('asia_edge_exports.csv', index=False)
@@ -90,8 +97,5 @@ edge_exports_test = edge_exports2.loc[(edge_exports2['target_name'].isin(test)) 
                                       (edge_exports2['source_name'].isin(test))]
 edge_exports_test2 = edge_exports_test[['target', 'source', 'weight']]
 
-node_df_test = node_df.loc[node_df['country_name'].isin(test)]
+node_df_test = nodes_gdp.loc[nodes_gdp['country_name'].isin(test)]
 
-print(edge_imports_test2)
-print(edge_exports_test2)
-print(node_df_test)
